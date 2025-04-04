@@ -16,17 +16,17 @@
         public static decimal GetNumberOfDollarsFromPerson()
         {
             Console.WriteLine("How many dollars do you have?");
-            
-            decimal dollars = decimal.Parse(Console.ReadLine());
+
+            decimal dollars = decimal.Parse(Console.ReadLine()); 
             return dollars;
         }
-            
+        
         //Method to collect what the persons favourite color is
         public static string GetPersonsFavouriteColor()
         {
             Console.WriteLine("What is your favourite color?");
 
-            string color = (Console.ReadLine());
+            string color = Console.ReadLine();
             return color;
         }
         
@@ -35,7 +35,7 @@
         {
             Console.WriteLine("Please give me your name:");
 
-            string name = (Console.ReadLine());
+            string name = Console.ReadLine();
             return name;
 
         }
